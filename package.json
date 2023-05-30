@@ -9,7 +9,8 @@
     "@testing-library/user-event": "^14.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,8 +41,12 @@
     "babel-loader": "^9.1.2"
   },
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
-    "plugins": ["@babel/plugin-proposal-private-property-in-object"]
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-private-property-in-object"
+    ]
   }
-
 }
